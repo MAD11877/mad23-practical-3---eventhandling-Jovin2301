@@ -29,7 +29,7 @@ public class MainActivity extends AppCompatActivity {
         TextView userName = findViewById(R.id.textView2);
         Random random = new Random();
         int randomNumber = random.nextInt(100000000-1)+1;
-        userName.setText("MAD " + randomNumber);
+        userName.setText("MAD " + String.valueOf(randomNumber));
 
         TextView userDescription = findViewById(R.id.textView3);
         userDescription.setText("The beauty of programming lies in the fact that it constantly challenges you to come up with innovative solutions to complex problems. Programming allows for continuous learning and improvement, where one can constantly discover new technologies and stay up to date with the latest trends.");
